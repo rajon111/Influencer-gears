@@ -1,0 +1,54 @@
+/* ==============================================
+=================google font impoted ============
+=================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* =====================
+========common css=======
+======================= */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+
+/* ================navigation-part============= */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+}
+.navigation li a{
+    text-decoration: none;
+    
+    font-weight: 600;
+    padding: 15px 10px;
+}
+
+.influncer-part{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+influncer-image img{
+    width: 60%;
+}
