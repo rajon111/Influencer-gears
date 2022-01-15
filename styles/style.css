@@ -379,7 +379,7 @@ nav{
 .full-yellow{
     color:orange;
 }
-span .half-yellow{
+.half-yellow{
     color:orange;
 }
 .see-more a{
@@ -389,7 +389,7 @@ span .half-yellow{
     text-align: right;
     margin: 30px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 24px;
     
 }
 
@@ -452,7 +452,7 @@ span .half-yellow{
         flex-direction: column;
     }
     .see-more a{
-        font-size: 20px;
+        font-size: 15px;
         }
     .primary-button{
         box-shadow: none;
@@ -491,7 +491,7 @@ span .half-yellow{
         width: 100%;
     }
 .see-more a{
-font-size: medium;
+font-size: small;
 }
     /* .nav-toggler-icon{
         display: block;
