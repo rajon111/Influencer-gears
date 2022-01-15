@@ -42,6 +42,7 @@ nav{
     text-decoration: none;
     font-weight: 600;
     padding: 15px 10px;
+    color: black;
     
     
 }
@@ -209,109 +210,110 @@ nav{
         }
     
         72% {
-            content: 'Start your Journey as Influenc|';
-        }
-    
-        73% {
             content: 'Start your Journey as Influen|';
         }
     
-        74% {
+        73% {
             content: 'Start your Journey as Influe|';
         }
     
-        75% {
+        74% {
             content: 'Start your Journey as Influ|';
         }
     
-        76% {
+        75% {
             content: 'Start your Journey as Infl|';
         }
     
-        77% {
+        76% {
             content: 'Start your Journey as Inf|';
         }
     
-        78% {
+        77% {
             content: 'Start your Journey as In|';
         }
     
-        79% {
+        78% {
             content: 'Start your Journey as I|';
         }
     
-        80% {
+        79% {
             content: 'Start your Journey as |';
         }
     
-        81%{
+        80% {
             content: 'Start your Journey as|';
         }
     
-        82% {
+        81%{
             content: 'Start your Journey a|';
         }
     
-        83% {
+        82% {
             content: 'Start your Journey |';
         }
     
-        84% {
+        83% {
             content: 'Start your Journey|';
         }
     
-        85% {
+        84% {
             content: 'Start your Journe|';
         }
     
-        86% {
+        85% {
             content: 'Start your Journ|';
         }
-    87% {
+    
+        86% {
             content: 'Start your Jour|';
         }
-    88% {
+    87% {
             content: 'Start your Jou|';
         }
-    89% {
+    88% {
             content: 'Start your Jo|';
         }
-    90% {
+    89% {
             content: 'Start your J|';
         }
-    91% {
+    90% {
             content: 'Start your |';
         }
-    92% {
+    91% {
             content: 'Start your|';
         }
-    93% {
+    92% {
             content: 'Start you|';
         }
-    94% {
+    93% {
             content: 'Start yo|';
         }
-    95% {
+    94% {
             content: 'Start y|';
         }
-    96% {
+    95% {
             content: 'Start |';
         }
-    97% {
+    96% {
             content: 'Start|';
         }
+    97% {
+            content: 'Star|';
+        }
     98% {
-            content:'Star|';
+            content:'Sta|';
         }
     99% {
-            content: 'Sta|';
+            content: 'St|';
         }
     100% {
-            content: 'St|';
+            content: 'S|';
         }
 }
 /* ====================animation-end============================== */
 
+/* ------------banner influcer part css------------ */
 .influncer-part{
     display: flex;
     justify-content: center;
@@ -333,7 +335,7 @@ nav{
     display: flex;
     align-items:center ;
     justify-content: space-evenly;
-    box-shadow: 0 40px 45px rgba(0,0,0,.2);
+    box-shadow:0 40px 45px rgba(0,0,0,.2);
 }
 
 /* ...............gallary-part............... */
@@ -355,7 +357,7 @@ nav{
     line-height: 1.5;
 }
 .price{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:'inter';
     font-weight:400 ;
 }
 .card p{
@@ -374,7 +376,7 @@ nav{
  
     
 }
-span .full-yellow{
+.full-yellow{
     color:orange;
 }
 span .half-yellow{
@@ -440,12 +442,18 @@ span .half-yellow{
     .card{
         align-items: center;
     }
+    .title{
+        font-size: 25px;
+    }
     .check{
         text-align: center;
     }
     .feature-part{
         flex-direction: column;
     }
+    .see-more a{
+        font-size: 20px;
+        }
     .primary-button{
         box-shadow: none;
     }
