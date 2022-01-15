@@ -42,6 +42,7 @@ nav{
     font-weight: 600;
     padding: 15px 10px;
     
+    
 }
 .primary-button{
     
@@ -58,6 +59,9 @@ nav{
     position: relative;
     top: 0;
 }
+.half-width{
+    width: 60%;
+}
 
 .primary-button:hover{
     top: 5px;
@@ -73,6 +77,8 @@ nav{
 
 .influncer-image img{
     width: 100%;
+    height: 100%;
+    margin-left: 200px;
 }
 .e-comm-list{
     margin-top: 30px;
@@ -167,26 +173,87 @@ span .half-yellow{
     border-radius: 5px;
 
 }
-/* .items{
-    display: grid;
-    grid-template-columns: repeat(3,1fr)
-   
-}
-.item-banner img{
-    width: 300px;
-height: 256px;
-}
-.item-info{
-    display: flex;
-    align-items: center;
-}
 
-.fas{
-    font-size: 11px;
+/* navbar */
+#nav-toggler{
+    display: none;
 }
-.fa-star.filled {
-color: #FB8200;;
+.nav-toggler-icon{
+    display: none;
+    color: #fff;
+    font-size: 30px;
 }
-.fa-star-half-alt{
-    color: #FB8200;
-} */
+/* responsive */
+@media (max-width:950px){
+   
+    .feature{
+        grid-template-columns: 1fr 1fr; 
+    }
+    .card{
+        align-items: center;
+    }
+    .check{
+        text-align: center;
+    }
+    .feature-part{
+        flex-direction: column;
+    }
+    .primary-button{
+        box-shadow: none;
+    }
+    
+}
+@media (max-width:800px){
+    .influncer-part{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .navigation{
+        display: none;
+    }
+    .top-title h3{
+        text-align: left;
+        display: block;
+    }
+    .influncer-part{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .e-comm-list{
+        display: none;
+    }
+    .feature{
+        grid-template-columns: 1fr ; 
+    }
+    .card{
+        align-items: center;
+    }
+    .feature-part{
+        flex-direction: column;
+    }
+    .image img{
+        width: 100%;
+    }
+
+    /* .nav-toggler-icon{
+        display: block;
+    }
+    .navigation{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        padding: 20px 0;
+        transform: translateY(-330px);
+        transition: .5s ease-in-out;
+    }
+    .navigation li a{
+        color: #121212;
+    }
+    #nav-toggler:checked ~ .navigation{
+        transform: translateY(0px);
+    } */
+}
